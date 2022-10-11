@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>*</pattern>
+        <template>I'm sorry, I don't know anything about <star />, I'm here to help you decide what career path would be a good fit for you.  If you're ready, you can say 'start' and we'll begin!</template>
+        
+    </category>
+    
+    <category>
+        <pattern>Start</pattern>
+        <template>Do you enjoy working with people?</template>
+    </category>
+    
+    <category>
+        <pattern>YES</pattern>
+        <that>DO YOU ENJOY WORKING WITH PEOPLE</that>
+        <template>Would getting into IT sales interest you?</template>
+    </category>
+    
+    <category>
+        <pattern>YES</pattern>
+        <that>WOULD GETTING INTO IT SALES INTEREST YOU</that>
+        <template>Great!  IT Sales it is!  Nailed it!</template>
+    </category>
+    
+    <category>
+        <pattern>NO</pattern>
+        <that>WOULD GETTING INTO IT SALES INTEREST YOU</that>
+        <template>How about project management?</template>
+    </category>
+    
+    <category>
+        <pattern>YES</pattern>
+        <that>HOW ABOUT PROJECT MANAGEMENT</that>
+        <template>Great! Project management it is! Nailed it!</template>
+    </category>
+    
+    <category>
+        <pattern>NO</pattern>
+        <that>HOW ABOUT PROJECT MANAGEMENT</that>
+        <template>Do you enjoy math?</template>
+    </category>
+    
+    <category>
+        <pattern>NO</pattern>
+        <that>DO YOU ENJOY WORKING WITH PEOPLE</that>
+        <template>Do you enjoy math?</template>
+    </category>
+    
+    <category>
+        <pattern>YES</pattern>
+        <that>DO YOU ENJOY MATH</that>
+        <template>Would you be interested in getting into research using computers?</template>
+    </category>
+
+    <category>
+        <pattern>NO</pattern>
+        <that>DO YOU ENJOY MATH</that>
+        <template>Do you enjoy competitive problem solving?</template>
+    </category>
+    
+    <category>
+        <pattern>NO</pattern>
+        <that>WOULD YOU BE INTERESTED IN GETTING INTO RESEARCH USING COMPUTERS</that>
+        <template>How about getting into logistics?</template>
+    </category>
+    
+     <category>
+        <pattern>YES</pattern>
+        <that>WOULD YOU BE INTERESTED IN GETTING INTO RESEARCH USING COMPUTERS</that>
+        <template>Great!  Research it is!  Nailed it!</template>
+    </category>
+    
+    <category>
+        <pattern>YES</pattern>
+        <that>HOW ABOUT GETTING INTO LOGISTICS</that>
+        <template>Great!  Logistics it is!  Nailed it!</template>
+    </category>
+    
+    <category>
+        <pattern>YES</pattern>
+        <that>DO YOU ENJOY COMPETITIVE PROBLEM SOLVING</that>
+        <template>How about cybersecurity?</template>
+    </category>
+    
+    <category>
+        <pattern>NO</pattern>
+        <that>HOW ABOUT CYBERSECURITY</that>
+        <template>I think you gotta consider IT support, then.</template>
+    </category>
+    
+    <category>
+        <pattern>YES</pattern>
+        <that>HOW ABOUT CYBERSECURITY</that>
+        <template>Great!  Cybersecurity it is!  Nailed it!</template>
+    </category>
+    <category>
+        <pattern>NO</pattern>
+        <that>DO YOU ENJOY COMPETITIVE PROBLEM SOLVING</that>
+        <template>I think you gotta go with IT support, then.  Best of luck!</template>
+    </category>
+</aiml>
